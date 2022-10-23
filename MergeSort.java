@@ -44,7 +44,6 @@ class MergeSort {
 			i++;
 			k++;
 		}
-
 		/* Copy remaining elements of R[] if any */
 		while (j < n2) {
 			arr[k] = R[j];
@@ -52,7 +51,6 @@ class MergeSort {
 			k++;
 		}
 	}
-
 	// Main function that sorts arr[l..r] using
 	// merge()
 	void sort(int arr[], int l, int r)
